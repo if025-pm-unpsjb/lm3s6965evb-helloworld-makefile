@@ -61,7 +61,7 @@ OBJECTS = $(SRC:.c=.o)
 #
 INCLUDE_PATHS += -I.
 INCLUDE_PATHS += -I./src
-INCLUDE_PATHS += -I./src/example_app
+INCLUDE_PATHS += -I./src/$(APP)
 INCLUDE_PATHS += -I./board/lm3s6965evb/drivers
 INCLUDE_PATHS += -I./libs/FreeRTOS/include
 INCLUDE_PATHS += -I./libs/FreeRTOS/portable/ARM_CM3
